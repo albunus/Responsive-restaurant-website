@@ -147,7 +147,7 @@ header .navbar a:hover {
 }
 
 .home .image img {
-    width: 100%;
+    width: 120%;
     padding: 1rem;
     animation: float 3s linear infinite;
 }
