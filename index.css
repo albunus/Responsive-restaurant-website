@@ -58,6 +58,7 @@ section {
     overflow: hidden;
     z-index: 0;
     margin-top: 1rem;
+    background-color: black;
 }
 
 .btn::before {
@@ -69,12 +70,14 @@ section {
     height: 100%;
     background: var(--red);
     transition: .3s linear;
+    
     z-index: -1;
 }
 
 .btn:hover::before {
     width: 100%;
     left: 0;
+    
 }
 
 .btn:hover {
@@ -132,7 +135,7 @@ header .navbar a:hover {
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-    background: url(../images/home-bg.jpg) no-repeat;
+    background: url(./Assets/200120161356-cnn-worlds-best-new-restaurants---madera---simon-brown-photography-1-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -147,9 +150,11 @@ header .navbar a:hover {
 }
 
 .home .image img {
-    width: 120%;
+    width: 80%;
     padding: 1rem;
     animation: float 3s linear infinite;
+    margin-left: 250px;
+
 }
 
 @keyframes float {
@@ -163,14 +168,18 @@ header .navbar a:hover {
 }
 
 .home .content h3 {
-    font-size: 5rem;
-    color: #333;
+    font-size: 4rem;
+    color: var(--red);
+
 }
 
 .home .content p {
-    font-size: 1.7rem;
-    color: #666;
+    font-size: 2rem;
+    color: black;
     padding: 1rem 0;
+}
+.content{
+  margin-bottom: 300px;
 }
 
 /* footer////////////////////////////////////////////////////////// */
