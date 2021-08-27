@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant website</title>
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
     <link rel="stylesheet" href="index.css">
-
-
 </head>
-
 <body>
-
-
-    <!-- header section starts  -->
-
     <header>
 
         <a href="#" class="logo"><i class="fas fa-utensils"></i>
@@ -37,32 +30,48 @@
         </nav>
 
     </header>
+    
 
-    <!-- header section ends -->
 
-    <!-- home section starts  -->
+    <!-- order section starts  -->
 
-    <section class="home" id="home">
+    <section class="order" id="order">
 
-        <div class="content">
-            <h3>food made with love</h3>
-            <p><b>Ask what’s for lunch. Food can be very transformational, and it can be more than just about a dish. 
-                That’s what happened to me when I first went to France. I fell in love. 
-                And if you fall in love, well, then everything is easy.Here we make your favorite dishes, Sweet food
-            and Sweet food only</b></p>
-            <a href="order.html" class="btn">order now</a>
-        </div>
+        <h1 class="heading"> <span>order</span> now </h1>
 
-        <div class="image">
-            <img src="./Assets/home-img.png" alt="">
+        <div class="row">
+
+            <div class="image">
+                <img src="./Assets/order1.jpg" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="food name">
+                </div>
+
+                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="order now" class="btn">
+
+            </form>
+
         </div>
 
     </section>
 
-    <!-- home section ends -->
-     <!-- footer section  -->
+    <!-- order section ends -->
 
-     <section class="footer">
+    <!-- footer section  -->
+
+    <section class="footer">
 
         <div class="share">
             <a href="#" class="btn">facebook</a>
@@ -75,7 +84,8 @@
         <h1 class="credit"> Created by <span>Albunus @TTECH</span> | All rights reserved </h1>
 
     </section>
-<!-- 
+
+ <!-- 
     scroll top button 
     <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
 
@@ -89,11 +99,5 @@
 
     <!-- custom js file link -->
     <script src="index.js"></script> 
-
-    
-</body>
-
-</html>
-
 </body>
 </html>
