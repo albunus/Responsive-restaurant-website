@@ -590,7 +590,17 @@ header .navbar a:hover {
     background: #000;
     text-align: center;
 }
+.footer >#contact-us{
+    padding: 1rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
 
+#button:hover{
+    background-color: red;
+    color: black;
+}
 .footer .share {
     display: flex;
     gap: 1.5rem;
@@ -599,7 +609,7 @@ header .navbar a:hover {
 }
 
 .footer .credit {
-    padding: 2.5rem 1rem;
+    padding: 1rem 1rem;
     color: #fff;
     font-weight: normal;
     font-size: 2rem;
